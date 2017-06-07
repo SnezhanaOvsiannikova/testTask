@@ -183,15 +183,9 @@ h1 {
 
 .progress-bar.progress-bar-green {
 	background: #b1e19b;
-	width: 37%;
 }
 .progress-bar.progress-bar-blue {
 	background: #ace2f8;
-	width: 9%;
-}
-
-.progress-bar.progress-bar-blue.progress-bar-blue-small {
-	width: 6%;
 }
 
 .feedback {
