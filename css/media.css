@@ -1,0 +1,38 @@
+@media (min-width: 500px) {
+   .user-box .img-holder, 
+   .user-box .user-info {
+      float: left;
+   }
+   .user-box .user-info .bg-yellow:after {
+      left: -10%;
+   }
+   .service-box {
+      padding-left: 128px;
+   }
+   .feedback .list-block .list-link li,
+   .feedback .list-block .ico-list li {
+      display: inline-block;
+      margin-bottom: 0;
+   }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+    margin: 0 auto; 
+   }
+   .user-box .user-info .bg-yellow:after {
+      right: -85px;
+   }
+   .user-box {
+      padding-left: 0;
+      padding-right: 0; 
+   }
+   .service-box  {
+      padding-right: 0px;
+   }
+   .feedback {
+      padding: 0;
+   }
+}
+

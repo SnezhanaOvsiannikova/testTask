@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/font-face.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<div class="container">
+		<div class="user-box">
+			<div class="img-holder">
+				<img src="images/avatar.png" alt="avatar">
+			</div>
+			<div class="user-info">
+				<h1>Вероника Ростова</h1>
+				<span class= "gr-color">Менеджер по продажам</span>
+				<p class="bg-yellow">Подберу для вас самые лучшие предложения. <br> Мои услуги абсолютно бесплатны</p>
+			</div>	
+		</div>
+		<div class="service-box">
+			<div class="service-heading">Услуг</div>
+			<div class="service-item">
+				<ul class="progress-list">
+					<li>
+						<p>Ручное бронирование</p>
+						<span class="number">11</span>
+						<span class="progress-bar progress-bar-green"></span>
+					</li>
+					<li>
+						<p>Пакетные туры</p>
+						<span class="number">3</span>
+						<span class="progress-bar progress-bar-blue"></span>
+					</li>
+					<li>
+						<p>Отели</p>
+						<span class="number">1</span>
+						<span class="progress-bar progress-bar-blue progress-bar-blue-small"></span>
+					</li>
+				</ul>
+			</div>
+			<div class="total-service">
+				<p>Всего</p>
+				<span class="number">15</span>
+			</div>
+		</div>
+		<div class="feedback" id="commentsHolder">
+			<div class="list-block">
+				<ul class="list-link">
+					<li><span class="active">Последние отзывы</span></li>
+					<li><a href="#">Все отзывы</a></li>
+				</ul>
+				<ul class="ico-list">
+					<li><a href="#" class="like">131</a></li>
+					<li><a href="#" class="repost">14</a></li>
+				</ul>
+			</div>
+			<div class="post-block">
+				<a href="#">
+					<h2>Самуил</h2>
+				</a>
+				<span class="gr-color date">13 октября 2011</span>
+				<div class="comment-content">Привет, Верунь! ниче себе ты крутая. фотка класс!!!!</div>
+			</div>
+			<div class="post-block">
+				<a href="#">
+					<h2>Лилия Семёновна</h2>
+				</a>
+				<span class="gr-color date">14 октября 2011</span>
+				<div class="comment-content">Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент, это и есть всемирно известный центр огранки алмазов и торговли бриллиантами?</div>
+			</div>
+			<div class="post-block">
+				<a href="#">
+					<h2>Лилия Семёновна</h2>
+				</a>
+				<span class="gr-color date">14 октября 2011</span>
+				<div class="comment-content">Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент?</div>
+			</div>
+		</div>
+	</div>
+	<div class="bottom-box">
+		<div class="container">
+			<form>
+				<textarea id="messageText" class="text-block"></textarea>
+				<div class="btn-holder">
+					<button class="btn-round" type="submit" id="sendMessage">Написать консультанту</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
